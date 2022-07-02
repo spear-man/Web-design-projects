@@ -1,0 +1,190 @@
+/**clear all defalutl boarders**/
+html,body
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	
+}
+
+#background
+{
+	background-image:url(../images/bg1.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment:fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+
+	
+}
+
+#logincontainer *
+{
+	color:#fff;
+	font-family: "Helvetica Neue",arial,sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+	padding: 1px 30px;
+
+	margin-left: 0;
+	
+}
+
+#logincontainer
+{
+	padding-left: 500px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+
+}
+
+#inputcontainer
+{
+	padding:20px;
+	float:left; 
+	border: 10px solid #fff;
+	background:#000000c4;
+}
+
+#inputcontainer h2
+{
+	text-align: center;
+}
+
+form#loginform{
+	padding:2em;
+}
+
+/**create with bottom input filed targeting type text,password email filds **/
+#inputcontainer input[type="text"],
+#inputcontainer input[type="email"],
+#inputcontainer input[type="password"]
+{
+	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    line-height: 27px;
+}
+
+/**style place holder**/
+::-webkit-input-placeholder
+{
+	color: #fff;
+}
+:-moz-placeholder 
+{
+	color: #fff;
+	opacity: 1;
+}
+::-moz-placeholder
+{
+	color: #fff;
+	opacity: 1;
+}
+:-ms-input-placeholder
+{
+	color: #fff;
+}
+::-ms-input-placeholder;
+{
+	color: #fff;
+}
+
+/**syle lables **/
+#inputcontainer label
+{	
+	color: #fff;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 2px;
+	display: block;
+	
+}
+
+
+#inputcontainer button
+{
+	background-color: transparent;
+	border:2px solid #fff;
+	
+	display: block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 20px auto;	
+	height: 40px;
+	width: 35%;
+
+}
+
+#inputcontainer button:hover
+{
+	cursor: pointer;
+	border-radius:100px;
+	
+	color: #fff;
+	transition: ease-in 0.8s;
+}
+
+/** sign in msg**/
+
+.hasaccounttext
+{
+	text-align: center;
+}
+
+.hasaccounttext span
+{
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+
+}
+
+
+/** hide regester  form completely when login form is active **/
+#registerform,#loginform
+{
+	display: none;
+}
+
+#logintext
+{
+	padding: 45px;
+	display: table-cell;
+}
+
+#logintext h1
+{
+	color:#46c546;
+	font-size: 44px;
+	font-weight: bold;
+}
+
+#logintext h2
+{
+	margin: 15px 0;
+}
+
+#logintext li
+{
+	font-size: 16px;
+	list-style-type: none:
+	padding: 10px; 
+}
+
+/** style error masage **/
+#inputcontainer .errormessage
+{
+	color:#ff0909;
+	font-size: 12px;
+	display: block;
+}
+
+
