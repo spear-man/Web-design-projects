@@ -7,6 +7,7 @@ Welcome to the Web Application Repository! This repository contains three web ap
 ### Project 1: Doctor Appointment Webapp
 - Description: This project is a simple web application for booking doctor appointments.It can be modified to adapt to other forms of appointments as it is dynamic
 - Technologies: HTML, CSS,PHP,SQL,Bootstrap
+- web link: https://spearnjoroge1.free.nf/
 
 ### Project 2: Electronic  E-commerce Webapp
 - Description: A dynamic web application for selling electrical gadgets
@@ -16,6 +17,7 @@ Welcome to the Web Application Repository! This repository contains three web ap
 ### Project 3: Music Instrument  E-commerce Webapp
 - Description: A web application utilizing HTML, CSS, PHP, and SQL for data storage.
 - Technologies: HTML, CSS, PHP, SQL
+- Web Link: https://spearnjoroge.free.nf/
 
 
 ## Getting Started
